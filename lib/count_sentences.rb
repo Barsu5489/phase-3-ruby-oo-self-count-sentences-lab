@@ -18,8 +18,8 @@ class String
   end
 
   def count_sentences
-
+    "#{self}".to_s.split(' ').length
   end
 end
 puts "hello.".sentence?
-puts 'What\'s your name?'.question?
+print 'This, well, is a sentence. This is too!! And so is this, I think? Woo...'.count_sentences
