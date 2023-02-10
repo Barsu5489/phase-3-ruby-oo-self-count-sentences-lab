@@ -10,7 +10,7 @@ class String
   end
 
   def question?
-
+  "#{self}".end_with?('?'|| '?')
   end
 
   def exclamation?
@@ -22,3 +22,4 @@ class String
   end
 end
 puts "hello.".sentence?
+puts 'What\'s your name?'.question?
